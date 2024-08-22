@@ -5,14 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button b1;
     RadioGroup rg;
     RadioButton r1,r2;
+    CheckBox e,m,h;
+    TextView t;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,20 +24,21 @@ public class MainActivity extends AppCompatActivity {
         b1=(Button) findViewById(R.id.submit);
         r1=(RadioButton) findViewById(R.id.male);
         r2=(RadioButton) findViewById(R.id.female);
+        e=(CheckBox)findViewById(R.id.e);
+        m=(CheckBox)findViewById(R.id.m);
+        h=(CheckBox)findViewById(R.id.h);
+        t=(TextView)findViewById(R.id.tv);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(r1.isChecked())
-                {
-                    String s=r1.getText().toString();
-                    Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
-                    String s=r2.getText().toString();
-                    Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
-                }
-
+                String s[]=new String[3];
+                t.setText("");
+                if(e.isChecked())
+                    t.setText(t.getText().toString()+" "+e.getText());
+                if(m.isChecked())
+                    t.setText(t.getText().toString()+" "+m.getText());
+                if(h.isChecked())
+                    t.setText(t.getText().toString()+" "+h.getText());
             }
         });
 

@@ -17,6 +17,15 @@
             android:id="@+id/h1"
             android:text="Registration"
             android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/gender"
+            android:text="Choose Gender"
+            android:textSize="20dp"/>
         <RadioGroup
             android:layout_width="250dp"
             android:layout_height="wrap_content"
@@ -34,13 +43,53 @@
                 android:text="Female"
                 android:id="@+id/female"/>
         </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/lang"
+            android:text="Select Known Languages"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp"/>
+        <CheckBox
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malayalam"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50dp"/>
+        <CheckBox
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="50dp"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="550dp"
             android:layout_marginLeft="150dp"
             android:text="Submit"
             android:id="@+id/submit"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginLeft="150dp"
+            android:text=""
+            android:id="@+id/tv"/>
 
     </RelativeLayout>
 
