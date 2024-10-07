@@ -1,0 +1,17 @@
+Shared Preference:
+. store and retrieve small amount of primitive data on a file.
+. key value pair- like a dictionary, that make up ur preferences in an xml file inside the application on the device storage.
+. persistent data/non-volatile data: is data that is stored on a volatile storage medium and remains accessible even after device Is turned off or restarted.
+	- used for long term use.
+. preferences: means those feature choices that the user makes  and saves to customizes an application to their liking.
+. shared preferences: is a light-weight/simple mechanism (It can handle small amount of data.) to store a non set of values when
+		1. storing user interface states. (fav stars)
+		2. storing user preferences (game levels)
+		3. Application setting(theme setting)
+. to create or modify a sp ,call the function getSharedPreference() 
+	- 2 parameters, key,mode(private,public,append)
+. SharedPreferences.Editor()
+	- write or edit data in sp file.
+. once editing has been done, to commit-> commit()/apply()
+. SharedPreferences.OnSharePrefernceChangeListener() it is called when a sp is changed, added or removed.
+. to read data=> 
