@@ -1,53 +1,58 @@
 package com.example.start;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity
+{
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("state","created");
+        Log.d("Appstate","Created");
     }
 
     @Override
-    protected void onStart() {
+    protected void onStart()
+    {
         super.onStart();
-        Log.d("state","starting");
+        Log.d("Appstate","Starting");
     }
 
     @Override
-    protected void onResume() {
+    protected void onResume()
+    {
         super.onResume();
-        Log.d("state","resuming");
+        Log.d("Appstate","Resuming");
     }
 
     @Override
-    protected void onPause() {
+    protected void onPause()
+    {
         super.onPause();
-        Log.d("state","paused");
+        Log.d("Appstate","Paused");
     }
 
     @Override
-    protected void onStop() {
+    protected void onStop()
+    {
         super.onStop();
-        Log.d("state","stopped");
+        Log.d("Appstate","Stopped");
     }
 
     @Override
-    protected void onRestart() {
+    protected void onRestart()
+    {
         super.onRestart();
-        Log.d("state","restarted");
+        Log.d("Appstate","Restarted");
     }
 
     @Override
-    protected void onDestroy() {
+    protected void onDestroy()
+    {
         super.onDestroy();
-        Log.d("state","destroyed");
+        Log.d("Appstate","Destroyed");
     }
 }
