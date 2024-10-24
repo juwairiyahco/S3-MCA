@@ -12,8 +12,7 @@
         android:layout_height="match_parent"
         android:columnCount="4"
         android:rowCount="6"
-        android:layout_margin="5dp"
-        >
+        android:layout_margin="5dp">
 
         <EditText
             android:id="@+id/t1"
@@ -30,7 +29,7 @@
             android:textAlignment="viewEnd"
             android:background="#20ffffff"
             android:textColor="#ffffff"
-            android:text="" />
+            android:text=""/>
 
         <Button
             android:id="@+id/b1"
@@ -85,12 +84,13 @@
             android:layout_column="3"
             android:gravity="center"
             android:textAlignment="center"
+
             android:textSize="28dp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/op_bg"
             android:textColor="#ffffff"
-            android:text="+" />
+            android:text="+"/>
 
 
         <Button
@@ -106,7 +106,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="4" />
+            android:text="4"/>
 
         <Button
             android:id="@+id/b5"
@@ -121,7 +121,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="5" />
+            android:text="5"/>
         <Button
             android:id="@+id/b6"
             android:layout_width="105dp"
@@ -135,7 +135,7 @@
             android:textSize="28dp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
-            android:text="6" />
+            android:text="6"/>
         <Button
             android:id="@+id/b13"
             android:layout_width="105dp"
@@ -150,7 +150,7 @@
             android:textSize="28dp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
-            android:text="-" />
+            android:text="-"/>
 
         <Button
             android:id="@+id/b7"
@@ -165,7 +165,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="7" />
+            android:text="7"/>
 
         <Button
             android:id="@+id/b8"
@@ -180,7 +180,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="8" />
+            android:text="8"/>
         <Button
             android:id="@+id/b9"
             android:layout_width="105dp"
@@ -194,7 +194,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="9" />
+            android:text="9"/>
         <Button
             android:id="@+id/b14"
             android:layout_width="105dp"
@@ -209,7 +209,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/op_bg"
             android:textColor="#ffffff"
-            android:text="x" />
+            android:text="x"/>
 
         <Button
             android:id="@+id/b0"
@@ -224,7 +224,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="0" />
+            android:text="0"/>
 
         <Button
             android:id="@+id/b10"
@@ -239,7 +239,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="." />
+            android:text="."/>
         <Button
             android:id="@+id/b11"
             android:layout_width="105dp"
@@ -253,7 +253,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button_background"
-            android:text="bp" />
+            android:text="bp"/>
         <Button
             android:id="@+id/b15"
             android:layout_width="105dp"
@@ -268,7 +268,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/op_bg"
             android:textColor="#ffffff"
-            android:text="/" />
+            android:text="/"/>
 
         <Button
             android:id="@+id/bac"
